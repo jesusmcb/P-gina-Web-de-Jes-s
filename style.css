@@ -1,0 +1,354 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+.header {
+    background-image: url(inicio.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+}
+
+.menu .navbar ul li {
+    position: relative;
+    float: left;
+}
+
+.menu .navbar ul li a {
+    font-size: 20px;
+    padding: 25px;
+    color: pink;
+    display: block;
+    font-weight: 1000;
+}
+
+.menu .navbar ul li a:hover {
+    color: brown;
+}
+
+#menu {
+    display: none;
+}
+
+.menu-icono {
+    width: 25px;
+}
+
+.menu label {
+    cursor: pointer;
+    display: none;
+}
+
+.header-content {
+    text-align: center;
+}
+
+.header-content h1 {
+    font-size: 75px;
+    line-height: 80px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+}
+
+.header-content p {
+    color: #fff;
+    padding: 0 250px;
+    margin-bottom: 25px;
+}
+
+.btn-1 {
+    display: inline-block;
+    padding: 11px 35px;
+    background-color: #CE967B;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.btn-1:hover {
+    background-color: #ebad8d;
+}
+
+.Viaje {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.viaje-content {
+    width: 100%;
+}
+
+.viaje-content h2 {
+    font-size: 55px;
+    line-height: 70px;
+    color: #323337;
+    text-transform: uppercase;
+    padding: 0 250px;
+    margin-bottom: 15px;
+}
+
+.txt-p {
+    color: #414247;
+    padding: 0 250px;
+    margin-bottom: 75px;
+}
+
+.viajes-group {
+    flex-wrap: wrap;
+}
+
+.viaje-1 img {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.viaje1 {
+    padding: 0 25px;
+}
+
+.viaje-1 img {
+    width: 350px;
+}
+
+.viaje-1 h3 {
+    color: #323337;
+    font-size: 50 px;
+    margin-bottom: 15px;
+}
+
+.services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}
+
+.services-content {
+    width: 100%;
+}
+
+.services-content h2 {
+    font-size: 55px;
+    line-height: 70px;
+    color: black;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+.services-content p {
+    color: white;
+    margin-bottom: 150px;
+    padding: 10 100px;
+}
+
+.services-group {
+    flex-wrap: wrap;
+}
+
+.services1 {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.services1 img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.services1 h3 {
+    color: #333;
+    font-size: 18px;
+    padding: 15px;
+}
+
+.services p {
+    color: #666;
+    padding: 0 15px 15px;
+    font-size: 14px;
+}
+
+.general {
+    display: flex;
+
+}
+
+.general-1 {
+    width: 50%;
+    padding: 100px 250px 100p 100px;
+    background-color: #E1E2E6;
+}
+
+.general-2 {
+    background-image: url(inicio.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+.general-3 {
+    background-image: url(inicio.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+h2 {
+    font-size: 75px;
+    line-height: 500px;
+    color: #323337;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 30px;
+    color: #414247;
+    margin: 25px 0 45px 0;
+}
+
+#viaje .titulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10vh;
+}
+
+#viaje .contenedor {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#viaje .card {
+    width: 325px;
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+}
+
+#viaje img {
+    width: 100%;
+    height: auto;
+}
+
+#viaje .contenido {
+    padding: 16px;
+}
+
+#viaje .contenido h3 {
+    font-size: 28px;
+    margin-bottom: 8px;
+}
+
+#viaje .contenido p {
+    font-size: 15px;
+}
+
+.footer-bg {
+    background-image: url(photo-1530789253388-582c481c54b0.avif);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 100px 0;
+}
+
+form {
+    flex-direction: column;
+    text-align: center;
+}
+
+.campo-1 {
+    margin-bottom: 15px;
+}
+
+.campo {
+    margin: 5px;
+    padding: 20px 15px;
+    width: 450px;
+    background-color: #c5c5c5;
+    border: 1px solid #CE967B;
+    outline: none;
+    border-radius: 10px;
+    font-size: 14px;
+    color: black;
+}
+
+textarea {
+    width: 520px !important;
+    flex: start;
+}
+
+.privacy-links {
+    margin-top: 20px;
+background-color: gray;
+}
+
+footer .footer-content form input {
+    width: 48px;
+    
+}
+
+footer .footer-content form .btn-1 {
+    width: 100%;
+    max-width: 200px;
+    margin-top: 15px;
+    background-color: white;
+    color: #fff;
+}
+
+footer .footer-content form .btn-1:hover {
+    background-color: #ebad8d;
+}
+
+
+
+.privacy-links a {
+color: black;
+margin: 0 15px;
+text-decoration: none;
+font-size: 14px;
+
+}
+
+.privacy-links a:hover {
+    color: chocolate;
+}
